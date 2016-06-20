@@ -1,0 +1,22 @@
+DEBUG 2016-06-20 11:05:14,630 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-06-20 11:05:18,209 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-06-20 11:05:18,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.Portal.PortalApplicationModule, MyCompany.Portal.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.Portal.PortalCoreModule, MyCompany.Portal.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.Portal.PortalDataModule, MyCompany.Portal.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.Portal.Web.PortalWebModule, MyCompany.Portal.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompany.Portal.PortalWebApiModule, MyCompany.Portal.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-06-20 11:05:18,218 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-06-20 11:05:25,551 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-06-20 11:05:25,575 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-06-20 11:05:25,576 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-06-20 11:05:25,668 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Portal
+DEBUG 2016-06-20 11:05:25,972 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-06-20 11:05:26,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+WARN  2016-06-20 11:05:32,657 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-06-20 11:05:32,673 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
