@@ -87,9 +87,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateTaskInput.cs" />
+    <Compile Include="GetTasksInput.cs" />
+    <Compile Include="GetTasksOutput.cs" />
+    <Compile Include="ITaskAppService.cs" />
     <Compile Include="PortalApplicationModule.cs" />
     <Compile Include="PortalAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaskAppService.cs" />
+    <Compile Include="TaskDto.cs" />
+    <Compile Include="UpdateTaskInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

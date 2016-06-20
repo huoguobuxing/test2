@@ -1,4 +1,5 @@
 ﻿using Abp.EntityFramework;
+using System.Data.Entity;
 
 namespace MyCompany.Portal.EntityFramework
 {
@@ -6,6 +7,8 @@ namespace MyCompany.Portal.EntityFramework
     {
         //TODO: Define an IDbSet for each Entity...
 
+        public virtual IDbSet<Task> Tasks { get; set; }
+        public virtual IDbSet<Person> People { get; set; }
         //Example:
         //public virtual IDbSet<User> Users { get; set; }
 

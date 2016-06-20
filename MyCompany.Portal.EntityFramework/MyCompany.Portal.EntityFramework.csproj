@@ -97,6 +97,11 @@
   <ItemGroup>
     <Compile Include="EntityFramework\PortalDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\PortalRepositoryBase.cs" />
+    <Compile Include="EntityFramework\Repositories\TaskRepository.cs" />
+    <Compile Include="Migrations\201606200637370_initialCreate.cs" />
+    <Compile Include="Migrations\201606200637370_initialCreate.Designer.cs">
+      <DependentUpon>201606200637370_initialCreate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PortalDataModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -110,6 +115,11 @@
       <Project>{17298ea0-af73-4f30-b6f1-2066100d7d74}</Project>
       <Name>MyCompany.Portal.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201606200637370_initialCreate.resx">
+      <DependentUpon>201606200637370_initialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
